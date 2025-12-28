@@ -4,10 +4,8 @@ echo "======================================"
 echo "Cleaning all microservices..."
 echo "======================================"
 
-# Array of services
 services=("config-server" "service-discovery" "api-gateway" "user-service" "product-service" "order-service")
 
-# Clean each service
 for service in "${services[@]}"
 do
     echo ""
