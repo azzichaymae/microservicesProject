@@ -20,10 +20,6 @@ eureka:
   instance:
     prefer-ip-address: true
 
-spring:
-  web:
-    cors:
-      enabled: false  # ensure no microservice adds CORS
 
 management:
   endpoints:
